@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "kamailio",
+      "camelcase": "Kamailio",
+      "scope": "source.kamailio",
+      "file-types": [
+        ".cfg",
+        ".inc"
+      ],
+      "injection-regex": "^kamailio$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "kamailio grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "batoaqaa"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/batoaqaa/tree-sitter-kamailio"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
